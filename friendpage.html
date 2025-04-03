@@ -1,0 +1,68 @@
+<div class="site-card-group">
+  <a class="site-card" target="_blank" href="https://nanako-blog.web.app//">
+    <div class="img">
+      <img src="/images/https://nanakoblog.web.app/img/author_hu_fa3623b4f75494f4.jpg"/>
+    </div>
+    <div class="info">
+      <div class="title">昼梦日和</div>
+      <div class="desc">梦是现实的延续，现实是梦的终结</div>
+    </div>
+  </a>
+</div>
+<style>
+.site-card-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.site-card {
+  width: 300px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.site-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.site-card .img {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.site-card .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.site-card:hover .img img {
+  transform: scale(1.1);
+}
+
+.site-card .info {
+  padding: 15px;
+}
+
+.site-card .info .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.site-card .info .desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+</style>
