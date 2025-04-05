@@ -1,0 +1,70 @@
+<div class="site-card-group">
+  <a class="site-card" target="_blank" href="https://blog.wraith615.xyz/">
+    <div class="img">
+      <img src="https://sh.cdn.thorn.red/f092128a-1467-47f7-8bbd-4c4c490efc5d/fwqx4xo3h36krwb8/YJWyDYS6SKMZvrbm_kENe.png">
+      onerror="this.src='https://via.placeholder
+    </div>
+    <div class="info">
+      <div class="title">Tunastrudel</div>
+      <div class="desc">一条咸鱼的唠叨堆放地</div>
+    </div>
+  </a>
+</div>
+<style>
+.site-card-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.site-card {
+  width: 150px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.site-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.site-card .img {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.site-card .img img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.site-card:hover .img img {
+  transform: scale(1.1);
+}
+
+.site-card .info {
+  padding: 15px;
+}
+
+.site-card .info .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.site-card .info .desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+  body { background: transparent !important; }
+</style>
